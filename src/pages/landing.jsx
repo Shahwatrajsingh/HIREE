@@ -66,10 +66,10 @@ const LandingPage = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card>
           <CardHeader>
-            <CardTitle className="font-bold">For Job Seekers</CardTitle>
+            <CardTitle className="font-bold">For Daily Wage Workers</CardTitle>
           </CardHeader>
           <CardContent>
-            Search and apply for jobs, track applications, and more.
+            Search and apply for Work, and more.
           </CardContent>
         </Card>
         <Card>
@@ -77,7 +77,7 @@ const LandingPage = () => {
             <CardTitle className="font-bold">For Employers</CardTitle>
           </CardHeader>
           <CardContent>
-            Post jobs, manage applications, and find the best candidates.
+            Post works, and find the best candidates.
           </CardContent>
         </Card>
       </section>

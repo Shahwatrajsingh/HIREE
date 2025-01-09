@@ -11,6 +11,7 @@ import JobListing from "./pages/jobListing";
 import MyJobs from "./pages/my-jobs";
 import SavedJobs from "./pages/saved-jobs";
 import JobPage from "./pages/job";
+import PostJobs from "./pages/postJobs";
 
 import "./App.css";
 
@@ -31,13 +32,22 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/jobs",
+        path: "/provideJobs",
         element: (
           <ProtectedRoute>
-            <PostJob />
+            <PostJobs />
           </ProtectedRoute>
         ),
       },
+      {
+        path: "/myjobs",
+        element: (
+        
+            <MyJobs />
+          
+        ),
+      },
+
       {
         path: "/joblisting",
         element: (
@@ -47,19 +57,19 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/my-jobs",
+        path: "/jobs",
         element: (
-          <ProtectedRoute>
-            <MyJobs />
-          </ProtectedRoute>
+          
+            <PostJob />
+          
         ),
       },
       {
         path: "/saved-jobs",
         element: (
-          <ProtectedRoute>
+          
             <SavedJobs />
-          </ProtectedRoute>
+          
         ),
       },
       {
