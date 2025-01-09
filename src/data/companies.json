@@ -1,0 +1,42 @@
+[
+  {
+    "name": "amazon",
+    "path": "/companies/painter.png",
+    "id": 1
+  },
+  {
+    "name": "atlassian",
+    "path": "/companies/cleaner.png",
+    "id": 2
+  },
+  {
+    "name": "google",
+    "path": "/companies/cook.png",
+    "id": 3
+  },
+  {
+    "name": "ibm",
+    "path": "/companies/plumber.png",
+    "id": 4
+  },
+  {
+    "name": "meta",
+    "path": "/companies/barber.png",
+    "id": 5
+  },
+  {
+    "name": "microsoft",
+    "path": "/companies/mechanic.png",
+    "id": 6
+  },
+  {
+    "name": "netflix",
+    "path": "/companies/builder.png",
+    "id": 7
+  },
+  {
+    "name": "uber",
+    "path": "/companies/carpenter.png",
+    "id": 8
+  }
+]
