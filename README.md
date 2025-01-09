@@ -1,11 +1,50 @@
-# Full Stack Job Portal with React JS, Tailwind CSS, Supabase, Clerk, Shadcn UI Tutorial 🔥🔥
-## https://www.youtube.com/watch?v=2XF-HgauItk
-![hirrd 1](https://github.com/user-attachments/assets/1da23b25-1f29-4402-be74-03685d9b732d)
+# HIREE  
 
-### Make sure to create a `.env` file with following variables -
+HIREE is a platform designed to help daily wage workers find job opportunities that match their skills and capabilities.  
 
-```
-VITE_SUPABASE_URL=
-VITE_SUPABASE_ANON_KEY=
-VITE_CLERK_PUBLISHABLE_KEY=
-```
+## Features  
+- **Skill-based Job Matching**: Matches workers with jobs based on their abilities.  
+- **User-friendly Interface**: Ensures accessibility for all users.  
+- **Employer Verification**: Builds trust between employers and workers.  
+
+---
+
+## Installation  
+
+### Prerequisites  
+- **Node.js**: Ensure you have Node.js installed on your system.  
+- **Git**: Required for cloning the repository.  
+
+---
+
+### Steps  
+
+1. **Clone the Repository**  
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
+
+    Install Dependencies
+    Navigate to the project directory and install the required packages:
+
+npm install
+
+Set Environment Variables
+Create a .env file in the root directory and add the required environment variables:
+
+    PORT=5000
+    DB_URL=<your_database_url>
+
+Running the Project
+Backend (Server)
+
+Start the backend server:
+
+node server.js
+
+The backend will run on the port specified in the .env file (default: http://localhost:5000).
+Frontend (Development Server)
+
+Start the frontend:
+
+npm run dev
